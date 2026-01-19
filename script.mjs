@@ -9,7 +9,7 @@ async function generate() {
         )
         const data = await response.json()
 
-        const jokeHolder = document.getElementById('mark')
+        const jokeHolder = document.getElementById('joke')
         jokeHolder.textContent = data.joke
        
     }
